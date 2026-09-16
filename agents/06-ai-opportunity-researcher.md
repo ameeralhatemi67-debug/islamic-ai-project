@@ -10,16 +10,14 @@ Its primary responsibility is to determine:
 
 This role operates under:
 
-- `AGENTS.md`
-    
-- `research-protocol/source-policy.md`
-    
-- `research-protocol/evidence-standard.md`
-    
-- `research-protocol/problem-card-schema.md`
-    
-- `research-protocol/reference-project-schema.md`
-    
+- `AGENTS.md` (Global Constitution)
+- `research-protocol/problem-card-schema.md` (Level 4 Part A: AI Opportunity Evaluation)
+- Phase 4 Task Packet
+
+Canonical reference protocols consulted on demand:
+- `research-protocol/evidence-standard.md` (for benchmark and evidence evaluation)
+- `research-protocol/source-policy.md` (for trust guardrails)
+- `research-protocol/reference-project-schema.md` (when reviewing RP-* records)
 
 All global policies remain binding.
 

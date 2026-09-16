@@ -21,16 +21,14 @@ Its primary responsibility is to discover and validate:
 
 This role operates under:
 
-- `AGENTS.md`
-    
-- `research-protocol/source-policy.md`
-    
-- `research-protocol/evidence-standard.md`
-    
-- `research-protocol/problem-card-schema.md`
-    
-- `research-protocol/reference-project-schema.md`
-    
+- `AGENTS.md` (Global Constitution)
+- `research-protocol/problem-card-schema.md` (Level 1 Discovery)
+- Phase 1 Task Packet
+
+Canonical reference protocols consulted on demand:
+- `research-protocol/source-policy.md` (for Islamic claims/texts)
+- `research-protocol/evidence-standard.md` (for evidence grading)
+- `research-protocol/reference-project-schema.md` (Section 1.1 for Reference Candidates)
 
 All global policies remain binding.
 
@@ -1274,7 +1272,7 @@ Search for:
 - mosque onboarding systems.
     
 
-Create Reference Project Cards.
+Record lightweight Reference Candidates within Section 11 of the Level 1 Problem Card or raw discovery notes. (Formal canonical reference-project research belongs to Agent 05.)
 
 ---
 
@@ -1362,7 +1360,7 @@ Adjacent domains may include:
 - beginner vs advanced pathways.
     
 
-Use `reference-project-schema.md`.
+Consult `research-protocol/reference-project-schema.md` (Section 1.1) for Reference Candidate capture.
 
 ---
 

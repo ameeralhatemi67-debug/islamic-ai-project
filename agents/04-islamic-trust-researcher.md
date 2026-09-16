@@ -10,16 +10,14 @@ Its primary responsibility is to discover and validate:
 
 This role operates under:
 
-- `AGENTS.md`
-    
-- `research-protocol/source-policy.md`
-    
-- `research-protocol/evidence-standard.md`
-    
-- `research-protocol/problem-card-schema.md`
-    
-- `research-protocol/reference-project-schema.md`
-    
+- `AGENTS.md` (Global Constitution)
+- `research-protocol/problem-card-schema.md` (Level 1 Discovery)
+- `research-protocol/source-policy.md` (Authoritative primary policy)
+- Phase 1 Task Packet
+
+Canonical reference protocols consulted on demand:
+- `research-protocol/evidence-standard.md` (for evidence grading)
+- `research-protocol/reference-project-schema.md` (Section 1.1 for Reference Candidates)
 
 All global policies remain binding.
 
@@ -1554,7 +1552,7 @@ Strong reference domains include:
 - policy versioning.
     
 
-Create Reference Project Cards.
+Record lightweight Reference Candidates within Section 11 of the Level 1 Problem Card or raw discovery notes. (Formal canonical reference-project research belongs to Agent 05.)
 
 ---
 

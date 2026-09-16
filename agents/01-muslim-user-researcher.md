@@ -10,16 +10,14 @@ Its primary responsibility is to discover and validate:
 
 This role operates under:
 
-- `AGENTS.md`
-    
-- `research-protocol/source-policy.md`
-    
-- `research-protocol/evidence-standard.md`
-    
-- `research-protocol/problem-card-schema.md`
-    
-- `research-protocol/reference-project-schema.md`
-    
+- `AGENTS.md` (Global Constitution)
+- `research-protocol/problem-card-schema.md` (Level 1 Discovery)
+- Phase 1 Task Packet
+
+Canonical reference protocols consulted on demand:
+- `research-protocol/source-policy.md` (for Islamic claims/texts)
+- `research-protocol/evidence-standard.md` (for evidence grading)
+- `research-protocol/reference-project-schema.md` (Section 1.1 for Reference Candidates)
 
 All global policies remain binding.
 
@@ -1226,7 +1224,7 @@ Search for:
 - human help.
     
 
-Create Reference Project records according to `reference-project-schema.md`.
+Record lightweight Reference Candidates within Section 11 of the Level 1 Problem Card or raw discovery notes. (Formal canonical reference-project research belongs to Agent 05.)
 
 ---
 
@@ -1311,16 +1309,9 @@ Use:
 
 # 41. Problem Card Creation
 
-When a problem has sufficient signal, create a minimal Problem Card using `problem-card-schema.md`.
+When a problem has sufficient signal, create a Level 1 Problem Card using `research-protocol/problem-card-schema.md` (Sections 1 through 19).
 
-Only expand to a full card when:
-
-- multiple relevant signals exist;
-    
-- a meaningful workflow is understood;
-    
-- solution research begins showing a genuine gap.
-    
+Agent 01 completes only Level 1. Do not attempt later-stage validation (Level 2), market gap assignment (Level 3), or AI solution design (Level 4).
 
 ---
 

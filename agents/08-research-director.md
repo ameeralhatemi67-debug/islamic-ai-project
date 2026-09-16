@@ -31,22 +31,17 @@ The central responsibility of this role is:
 
 This role operates under:
 
-- `AGENTS.md`
-    
-- `research-protocol/source-policy.md`
-    
-- `research-protocol/evidence-standard.md`
-    
-- `research-protocol/problem-card-schema.md`
-    
-- `research-protocol/reference-project-schema.md`
-    
-- the project's orchestration protocol when available;
-    
-- the cross-examination protocol when available;
-    
-- the opportunity-map schema when available.
-    
+- `AGENTS.md` (Global Constitution)
+- `ORCHESTRATION.md`
+- `research-protocol/problem-card-schema.md` (Level 2 Validation audit in Phase 2; Level 4 Part C final disposition in Phase 7)
+- `research-protocol/cross-examination-protocol.md` (Phase 6 moderation)
+- `research-protocol/opportunity-map-schema.md` (Phase 7 synthesis)
+- Phase-specific Task Packets
+
+Canonical reference protocols consulted on demand:
+- `research-protocol/source-policy.md` (theological adjudication)
+- `research-protocol/evidence-standard.md` (evidence quality auditing)
+- `research-protocol/reference-project-schema.md` (landscape auditing)
 
 All global policies remain binding.
 

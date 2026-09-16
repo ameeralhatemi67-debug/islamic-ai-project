@@ -52,6 +52,28 @@ It is:
 
 ---
 
+# 1.1 Reference Candidate vs Canonical Reference Project
+
+To avoid context overload and premature analysis during early discovery, the system strictly distinguishes:
+
+### A. Reference Candidate (Discovered by Agents 01–04)
+During Phase 1 (Independent Discovery), Agents 01–04 do **not** load or fill out this complete reference-project schema. When they encounter an existing tool, app, or website while studying users, they record a lightweight **Reference Candidate** inline within their Level 1 Problem Card (Section 11) or raw discovery notes:
+```text
+Name: [Product / Project Name]
+URL: [Link]
+Related Problem ID: [P-XXX]
+Target User (if known): [User role]
+What It Appears to Solve: [Brief summary]
+Why Relevant: [Why it matters to this problem]
+Observed Limitations / User Feedback: [Complaints, paywalls, inaccuracies noted]
+```
+Discovery agents do not assign `RP-*` IDs and do not perform deep architectural or competitive teardowns.
+
+### B. Canonical Reference Project (Owned by Agent 05)
+Agent 05 (Market & Reference Landscape Researcher) owns formal reference-project analysis in Phase 3. Agent 05 intakes all Reference Candidates, identifies new competitors and adjacent-domain systems, assigns canonical `RP-*`, `ADJ-*`, and `TECH-*` IDs, and completes the full evaluation defined in this document.
+
+---
+
 # 2. What Counts as a Reference Project
 
 A Reference Project may be:

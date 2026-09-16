@@ -14,16 +14,15 @@ The Red Team should actively try to disprove important conclusions before the te
 
 This role operates under:
 
-- `AGENTS.md`
-    
-- `research-protocol/source-policy.md`
-    
-- `research-protocol/evidence-standard.md`
-    
-- `research-protocol/problem-card-schema.md`
-    
-- `research-protocol/reference-project-schema.md`
-    
+- `AGENTS.md` (Global Constitution)
+- `research-protocol/problem-card-schema.md` (Level 4 Part B: Adversarial Review)
+- Phase 5 Task Packet
+
+Canonical reference protocols consulted on demand:
+- `research-protocol/cross-examination-protocol.md` (for formal challenge procedures)
+- `research-protocol/source-policy.md` (for theological vulnerability audits)
+- `research-protocol/evidence-standard.md` (for evidence challenge standards)
+- `research-protocol/reference-project-schema.md` (when testing competitor coverage)
 
 All global policies remain binding.
 

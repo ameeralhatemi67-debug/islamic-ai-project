@@ -10,16 +10,14 @@ Its primary responsibility is to determine:
 
 This role operates under:
 
-- `AGENTS.md`
-    
-- `research-protocol/source-policy.md`
-    
-- `research-protocol/evidence-standard.md`
-    
-- `research-protocol/problem-card-schema.md`
-    
-- `research-protocol/reference-project-schema.md`
-    
+- `AGENTS.md` (Global Constitution)
+- `research-protocol/reference-project-schema.md` (Owns canonical RP-*, ADJ-*, TECH-* research)
+- `research-protocol/problem-card-schema.md` (Level 3 Market-Tested Problem)
+- Phase 3 Task Packet
+
+Canonical reference protocols consulted on demand:
+- `research-protocol/evidence-standard.md` (for evidence grading)
+- `research-protocol/source-policy.md` (when evaluating religious claims of competitors)
 
 All global policies remain binding.
 

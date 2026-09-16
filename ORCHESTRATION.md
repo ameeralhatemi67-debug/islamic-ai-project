@@ -561,63 +561,62 @@ Never launch an agent with only:
 
 ---
 
-# 17. Shared Context Every Agent Receives
+# 17. Canonical Documentation vs Runtime Context
 
-Every council agent must receive:
+To prevent context dilution, instruction repetition, and token exhaustion, the orchestration strictly distinguishes:
 
 ```text
-AGENTS.md
+CANONICAL REFERENCE DOCUMENTATION
+Authoritative, detailed reference standards stored in /research-protocol/.
+Kept intact in the repository. Consulted on-demand when an agent's specific task requires it.
 
-research-protocol/source-policy.md
-
-research-protocol/evidence-standard.md
+RUNTIME REQUIRED CONTEXT
+The minimal set of instructions, schemas, and target artifacts loaded for a specific agent and phase.
+Follows the principle: Give each agent the minimum context required to perform its current task correctly.
 ```
 
-plus its own profile.
-
-Additional protocols depend on role.
+Specialist protocols (`source-policy.md`, `evidence-standard.md`, `problem-card-schema.md`, `reference-project-schema.md`, `cross-examination-protocol.md`, `opportunity-map-schema.md`) are **not** preloaded into every agent at startup. They are loaded selectively or consulted on demand.
 
 ---
 
-# 18. Agent-Specific Protocol Context
+# 17.1 Reference Candidate vs Canonical Reference Project
 
-Agents 01–04 receive:
-
-```text
-problem-card-schema.md
-
-reference-project-schema.md
-```
-
-because they may identify existing solutions while researching problems.
-
-Agent 05 receives:
+To protect discovery researchers from context overload and premature competitor analysis:
 
 ```text
-problem-card-schema.md
+REFERENCE CANDIDATE (Phase 1: Discovered by Agents 01–04)
+A lightweight record of an existing tool, app, website, or service noticed while researching user workflows.
+Recorded inline within Section 11 of the Level 1 Problem Card or raw discovery notes:
+- Name
+- URL
+- Related Problem ID
+- Target User (if known)
+- What It Appears to Solve
+- Why Relevant
+- Observed Limitation / User Complaint (if found)
+Discovery agents do NOT assign RP-* IDs and do NOT read the full reference-project schema.
 
-reference-project-schema.md
+CANONICAL REFERENCE PROJECT (Phase 3: Owned by Agent 05)
+A formal, deeply investigated reference or competitor project assigned a canonical RP-*, ADJ-*, or TECH-* ID.
+Agent 05 owns canonical reference-project research, reads the full reference-project-schema.md, and creates
+individual evaluation files in /research/reference-projects/.
 ```
 
-Agent 06 receives:
+---
 
-```text
-problem-card-schema.md
+# 18. Runtime Context Loading Matrix
 
-reference-project-schema.md
-```
+The Root Orchestrator must enforce the following context-loading rules for every phase and agent:
 
-Agent 07 receives:
-
-```text
-problem-card-schema.md
-
-reference-project-schema.md
-
-cross-examination-protocol.md
-```
-
-Agent 08 receives all research protocols.
+| Phase & Agent | MUST READ (Startup Context) | MAY CONSULT IF NEEDED (On-Demand) | MUST NOT READ YET (Strict Isolation) |
+|---|---|---|---|
+| **Phase 1: Agents 01–04**<br>(Discovery) | • `AGENTS.md`<br>• Own Agent Profile<br>• Current Task Packet<br>• `problem-card-schema.md` (Level 1 only) | • `source-policy.md` (if verifying sacred texts/rulings)<br>• `evidence-standard.md` (if grading ambiguous evidence) | • `reference-project-schema.md` (full schema)<br>• Other discovery agents' raw outputs/cards<br>• Phase 4–8 schemas & synthesis files |
+| **Phase 2: Agent 08**<br>(Validation) | • `AGENTS.md`<br>• Agent 08 Profile<br>• Task Packet<br>• `problem-card-schema.md` (Level 2 audit section)<br>• Newly created Level 1 Problem Cards<br>• Agents 01–04 raw discovery reports | • `source-policy.md`<br>• `evidence-standard.md` | • Phase 4–8 schemas (`cross-examination-protocol.md`, `opportunity-map-schema.md`)<br>• Premature solution ideation |
+| **Phase 3: Agent 05**<br>(Market Landscape) | • `AGENTS.md`<br>• Agent 05 Profile<br>• Task Packet<br>• `reference-project-schema.md` (Full schema)<br>• `problem-card-schema.md` (Level 3 section)<br>• Validated Problem Cards (Level 2)<br>• Problem Registry (`CYCLE-XXX-problem-registry.md`) | • `evidence-standard.md`<br>• `source-policy.md`<br>• Specific discovery evidence if cited | • Complete raw discovery conversations across all agents (reduces anchoring)<br>• Phase 4–8 opportunity/synthesis files |
+| **Phase 4: Agent 06**<br>(AI Opportunity) | • `AGENTS.md`<br>• Agent 06 Profile<br>• Task Packet<br>• `problem-card-schema.md` (Level 4 Part A)<br>• Validated Problem Cards (Level 2 & 3)<br>• Problem Registry & Gap Register<br>• Agent 05 Landscape Summary & relevant `RP-*` files | • Relevant Agent 04 trust findings<br>• Specific technical benchmarks | • Unrelated Phase 1 raw discovery material<br>• Phase 6–8 cross-examination & synthesis |
+| **Phase 5: Agent 07**<br>(Red Team) | • `AGENTS.md`<br>• Agent 07 Profile<br>• Task Packet<br>• `problem-card-schema.md` (Level 4 Part B)<br>• Target Opportunity Package (Problem Cards Levels 1–4, Agent 05 Landscape, Agent 06 AI Opportunity Register) | • Canonical protocols on demand (`source-policy.md`, etc.) | • Unrelated raw discovery files<br>• Director synthesis preferences / ranking |
+| **Phase 6: Participants**<br>(Cross-Examination) | • `cross-examination-protocol.md` (relevant rules)<br>• Target Examination Packet (Target Problem Card, specific P0/P1 challenge, counterevidence) | • Relevant Reference Projects or Evidence notes cited in the challenge | • Entire repository history<br>• Unrelated problem cards |
+| **Phase 7: Agent 08**<br>(Synthesis) | • `AGENTS.md`<br>• Agent 08 Profile<br>• `opportunity-map-schema.md`<br>• Structured Artifacts (Level 4 Problem Cards, `RP-*`, `AI-OP-*`, `RT-*`, CX Summary, `disagreements.md`, `open-questions.md`) | • Raw discovery files (only if structured artifact is ambiguous) | • Non-evidenced hackathon pitch ideas |
 
 ---
 
@@ -661,26 +660,20 @@ Parallel execution is preferred because it reduces cross-agent influence.
 
 # 21. Phase 1 Input
 
-Agents 01–04 receive only:
+In accordance with the Runtime Context Loading Matrix, Agents 01–04 receive only:
 
-- global rules;
-    
-- source/evidence protocols;
-    
-- problem-card schema;
-    
-- reference-project schema;
-    
-- their own role profile;
-    
-- the challenge research objective;
-    
-- the original hackathon context if supplied;
-    
-- approved source references where relevant.
-    
+- `AGENTS.md` (Global Constitution);
+- Their own specialist role profile;
+- Current Phase 1 Task Packet;
+- Level 1 of `research-protocol/problem-card-schema.md`;
+- The challenge research objective and verified domain references where relevant.
 
-Do not provide findings from the other specialist agents.
+Agents 01–04 may consult `source-policy.md` and `evidence-standard.md` on demand when handling sacred texts, complex rulings, or ambiguous evidence.
+
+**Do NOT provide:**
+- The full `reference-project-schema.md` (discovery agents record lightweight Reference Candidates in Level 1 Problem Cards);
+- Outputs or Problem Cards from other Phase 1 specialist agents (preserves independent discovery);
+- Downstream synthesis, cross-examination, or opportunity schemas.
 
 ---
 
@@ -896,19 +889,23 @@ not full synthesizer.
 
 # 32. Agent 08 Phase 2 Input
 
-Agent 08 may read:
+In accordance with the Runtime Context Loading Matrix, Agent 08 receives:
 
 ```text
+AGENTS.md (Global Constitution)
+
+Agent 08 profile & Phase 2 Task Packet
+
+research-protocol/problem-card-schema.md (Level 2 audit section)
+
+Level 1 Problem Cards created by Agents 01–04
+
 Agents 01–04 raw discovery reports
-
-Problem Cards
-
-evidence records
-
-global protocols
 ```
 
-Agent 08 should not yet attempt to choose opportunity directions.
+Agent 08 may consult `source-policy.md` and `evidence-standard.md` on demand to evaluate theological compliance and citation rigor.
+
+Agent 08 must **not** load later schemas (`cross-examination-protocol.md`, `opportunity-map-schema.md`) or attempt to choose solution directions during intake validation.
 
 ---
 
@@ -1038,23 +1035,27 @@ Agent 05 begins only after receiving the validated Problem Registry.
 
 # 39. Agent 05 Context
 
-Agent 05 receives:
+In accordance with the Runtime Context Loading Matrix, Agent 05 receives:
 
 ```text
-validated Problem Cards
+AGENTS.md (Global Constitution)
 
-problem registry
+Agent 05 profile & Phase 3 Task Packet
 
-relevant supporting evidence
+research-protocol/reference-project-schema.md (Full canonical schema)
 
-global research protocols
+research-protocol/problem-card-schema.md (Level 3 section)
 
-Agent 05 profile
+Validated Problem Cards (Level 2) including candidate reference mentions
+
+Problem Registry (research/raw/CYCLE-XXX-problem-registry.md)
 ```
 
-Agent 05 should **not receive complete raw discovery conversations by default**.
+Agent 05 may consult `evidence-standard.md` and `source-policy.md` on demand when evaluating claims.
 
-This reduces anchoring and context load.
+**Agent 05 must NOT receive:**
+- Complete raw discovery conversations across all agents (preserves objectivity and prevents context anchoring);
+- Phase 4–8 opportunity, cross-examination, and synthesis files.
 
 ---
 
@@ -1207,27 +1208,27 @@ Agent 06 begins after Phase 3.
 
 # 48. Agent 06 Context
 
-Agent 06 receives:
+In accordance with the Runtime Context Loading Matrix, Agent 06 receives:
 
 ```text
-validated Problem Cards
+AGENTS.md (Global Constitution)
 
-problem registry
+Agent 06 profile & Phase 4 Task Packet
 
-Agent 05 landscape summary
+research-protocol/problem-card-schema.md (Level 4 Part A: AI Opportunity Evaluation)
 
-relevant Reference Project files
+Validated Problem Cards (Levels 1–3)
 
-gap register
+Problem Registry & Gap Register (GAP-XXX)
 
-relevant Agent 04 trust findings
-
-global protocols
-
-Agent 06 profile
+Agent 05 Landscape Summary & relevant canonical RP-* records
 ```
 
-Agent 06 does not need unrelated raw research.
+Agent 06 may consult relevant Agent 04 trust findings and technical benchmarks on demand.
+
+**Agent 06 must NOT receive:**
+- Unrelated Phase 1 raw discovery files;
+- Phase 6–8 cross-examination and synthesis artifacts.
 
 ---
 
@@ -1350,29 +1351,27 @@ Agent 07 must enter **after** problem, market, and AI claims have been structure
 
 # 55. Agent 07 Context
 
-Agent 07 receives:
+In accordance with the Runtime Context Loading Matrix, Agent 07 receives:
 
 ```text
-validated Problem Cards
+AGENTS.md (Global Constitution)
 
-problem registry
+Agent 07 profile & Phase 5 Task Packet
 
-Agent 05 landscape
+research-protocol/problem-card-schema.md (Level 4 Part B: Adversarial Review)
 
-relevant Reference Projects
-
-gap register
-
-Agent 06 AI opportunity register
-
-Agent 04 trust findings
-
-critical supporting evidence
-
-global protocols
+Target Opportunity Package:
+- Validated Problem Cards (Levels 1–3)
+- Agent 05 Market Landscape & relevant RP-* records
+- Agent 06 AI Opportunity Register & preliminary Section 24 drafts
+- Relevant Agent 04 trust audits
 ```
 
-Agent 07 should not receive a Director-generated opportunity ranking because none should yet exist.
+Agent 07 may consult canonical protocols (`source-policy.md`, `evidence-standard.md`) on demand when verifying attack claims.
+
+**Agent 07 must NOT receive:**
+- Unrelated raw discovery notes;
+- Director synthesis preferences, rankings, or anticipated defenses (preserves adversarial independence).
 
 ---
 
@@ -2023,91 +2022,44 @@ without repeating problem discovery from scratch.
 
 ---
 
-# 89. Agent Read Permissions by Phase
+# 89. Agent Read Permissions by Phase (Runtime Matrix Enforcement)
 
-## Phase 1
+The Orchestrator must enforce strict read permissions to protect agent attention and token budgets:
 
-Agents 01–04:
+## Phase 1 (Discovery: Agents 01–04)
+- **MUST READ:** `AGENTS.md`, own agent profile, Task Packet, `problem-card-schema.md` (Level 1 only).
+- **MAY CONSULT IF NEEDED:** `source-policy.md`, `evidence-standard.md`.
+- **MUST NOT READ YET:** `reference-project-schema.md` (full schema), other discovery agents' raw outputs/cards, synthesis files.
 
-```text
-READ:
-Global protocols
-Own profile
-Hackathon context
-Public research sources
+## Phase 2 (Validation: Agent 08)
+- **MUST READ:** `AGENTS.md`, Agent 08 profile, Task Packet, `problem-card-schema.md` (Level 2 audit section), newly created Level 1 Problem Cards, Agents 01–04 raw discovery reports.
+- **MAY CONSULT IF NEEDED:** `source-policy.md`, `evidence-standard.md`.
+- **MUST NOT READ YET:** Future phase schemas (`cross-examination-protocol.md`, `opportunity-map-schema.md`).
 
-DO NOT READ:
-Other agent outputs
-Synthesis
-```
+## Phase 3 (Market Landscape: Agent 05)
+- **MUST READ:** `AGENTS.md`, Agent 05 profile, Task Packet, `reference-project-schema.md` (full canonical schema), `problem-card-schema.md` (Level 3 section), validated Level 2 Problem Cards, Problem Registry.
+- **MAY CONSULT IF NEEDED:** `evidence-standard.md`, `source-policy.md`, specific discovery notes if cited.
+- **MUST NOT READ YET:** Full raw discovery conversations across all agents (preserves objectivity), Phase 4–8 synthesis files.
 
-## Phase 2
+## Phase 4 (AI Opportunity: Agent 06)
+- **MUST READ:** `AGENTS.md`, Agent 06 profile, Task Packet, `problem-card-schema.md` (Level 4 Part A), validated Problem Cards (Levels 1–3), Problem Registry, Gap Register, Agent 05 Landscape Summary & relevant `RP-*` files.
+- **MAY CONSULT IF NEEDED:** Relevant Agent 04 trust findings, specific technical benchmarks.
+- **MUST NOT READ YET:** Unrelated Phase 1 raw discovery notes, Phase 6–8 cross-examination and synthesis files.
 
-Agent 08:
+## Phase 5 (Red Team: Agent 07)
+- **MUST READ:** `AGENTS.md`, Agent 07 profile, Task Packet, `problem-card-schema.md` (Level 4 Part B), Target Opportunity Package (Problem Cards Levels 1–4, Agent 05 Landscape, Agent 06 AI Opportunity Register).
+- **MAY CONSULT IF NEEDED:** Canonical protocols (`source-policy.md`, `evidence-standard.md`) on demand.
+- **MUST NOT READ YET:** Unrelated raw discovery notes, Director synthesis preferences or rankings.
 
-```text
-READ:
-Agents 01–04 outputs
-Problem Cards
-Evidence
-```
+## Phase 6 (Cross-Examination Participants)
+- **MUST READ:** `cross-examination-protocol.md` (relevant rules), specific CX target packet (target Problem Card, specific P0/P1 challenge, counterevidence).
+- **MAY CONSULT IF NEEDED:** Specific referenced `RP-*` or evidence notes.
+- **MUST NOT READ YET:** Entire repository history, unrelated problem cards.
 
-## Phase 3
-
-Agent 05:
-
-```text
-READ:
-Validated Problem Cards
-Problem Registry
-Relevant evidence
-
-DEFAULT DO NOT READ:
-Full raw conversations
-```
-
-## Phase 4
-
-Agent 06:
-
-```text
-READ:
-Validated problems
-Market landscape
-Reference Projects
-Gap register
-Relevant trust findings
-```
-
-## Phase 5
-
-Agent 07:
-
-```text
-READ:
-Structured validated research
-Market analysis
-AI opportunities
-Trust evidence
-```
-
-## Phase 6
-
-Participants:
-
-```text
-READ:
-Only target-specific examination packet
-```
-
-## Phase 7+
-
-Agent 08:
-
-```text
-READ:
-Full structured research corpus
-```
+## Phase 7+ (Synthesis & Final Audit: Agent 08 & Agent 07)
+- **MUST READ:** `AGENTS.md`, own profile, `opportunity-map-schema.md`, structured artifacts (Level 4 Problem Cards, `RP-*`, `AI-OP-*`, `RT-*`, CX Summary, `disagreements.md`, `open-questions.md`).
+- **MAY CONSULT IF NEEDED:** Raw discovery files (strictly to resolve factual ambiguities in structured cards).
+- **MUST NOT READ:** Speculative, non-evidenced hackathon pitch ideas.
 
 ---
 
