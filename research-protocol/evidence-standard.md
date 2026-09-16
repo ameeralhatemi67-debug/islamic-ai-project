@@ -123,14 +123,24 @@ CONFIDENCE IN INTERPRETATION:
 High / Medium / Low
 ```
 
-Evidence IDs should follow a consistent naming convention.
+Evidence IDs must follow an agent-namespaced convention to prevent collisions during concurrent discovery:
 
 Example:
 
 ```text
-EVID-001
-EVID-002
-EVID-003
+E01-001
+E01-002
+E02-001
+E03-001
+E04-001
+```
+
+If later agents create evidence records, continue the same pattern:
+```text
+E05-001
+E06-001
+E07-001
+E08-001
 ```
 
 ---
@@ -2010,8 +2020,8 @@ Example:
 ```text
 | ID | Claim | Source | Type | Strength | Supports / Contradicts |
 |----|-------|--------|------|----------|------------------------|
-| EVID-001 | Users struggle with citations | App reviews | User | Moderate | Supports |
-| EVID-002 | Product X provides citations | Official docs | Product | Strong | Contradicts gap |
+| E01-001 | Users struggle with citations | App reviews | User | Moderate | Supports |
+| E05-001 | Product X provides citations | Official docs | Product | Strong | Contradicts gap |
 ```
 
 The ledger helps identify:
@@ -2038,12 +2048,12 @@ CLAIM:
 English-speaking converts struggle with unfamiliar Arabic terminology.
 
 SUPPORT:
-EVID-014
-EVID-019
-EVID-027
+E02-001
+E02-002
+E02-003
 
 CONTRADICT:
-EVID-031
+E05-002
 
 CONFIDENCE:
 Medium

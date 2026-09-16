@@ -54,27 +54,37 @@ All agents remain bound by those documents.
 
 ---
 
-# 1. Authority Order
+# 1. Instruction Authority Hierarchy
 
-When instructions conflict, use this priority:
+When instructions conflict, agents and the Root Orchestrator must resolve them using this strict priority order:
 
 ```text
 1. AGENTS.md
+   Supreme global constitution for all agents and sub-agents.
 
 2. research-protocol/source-policy.md
+   Authoritative rules for Islamic knowledge, canonical texts, attribution, and fatwa boundaries.
 
 3. research-protocol/evidence-standard.md
+   Authoritative rules for evidence classification, verification, confidence, and disconfirmation.
 
-4. relevant research schemas / protocols
+4. ORCHESTRATION.md
+   Council lifecycle, phase execution, access permissions, isolation, file ownership, and gates.
 
-5. ORCHESTRATION.md
+5. Current Task Packet
+   Phase-specific operational assignment, assigned research questions, allowed context, outputs, and stop conditions.
 
-6. individual agent profile
+6. Agent Role Profile
+   Persistent specialist scope, domain expertise, and role-specific research methodology.
 
-7. task-specific research packet
+7. Relevant Output Schema (e.g., problem-card-schema.md, reference-project-schema.md)
+   Artifact structure, sections, and formatting standards.
 ```
 
-The Research Director may resolve ambiguous workflow questions but may not override higher-level evidence or source-integrity requirements.
+### Critical Precedence Rules:
+- **Task Packets Scope the Phase:** A Task Packet may narrow an agent's focus, context, or specific questions for the active phase, but it can **never** override `AGENTS.md`, theological source integrity (`source-policy.md`), evidence verification standards (`evidence-standard.md`), or orchestration isolation rules.
+- **Schemas Govern Formatting, Not Mission:** An output schema defines how artifacts are structured. It must **never** be interpreted as permission to broaden an agent's assigned mission, skip phases, bypass context isolation, or prematurely attempt later-stage analysis (such as solution design during Level 1 problem discovery).
+- **Director Adjudication Scope:** The Research Director (Agent 08) may resolve ambiguous research questions or procedural edge cases within a phase, but may not override higher-level constitutional, source-integrity, or evidence-standard requirements.
 
 ---
 
@@ -608,9 +618,8 @@ individual evaluation files in /research/reference-projects/.
 
 The Root Orchestrator must enforce the following context-loading rules for every phase and agent:
 
-| Phase & Agent | MUST READ (Startup Context) | MAY CONSULT IF NEEDED (On-Demand) | MUST NOT READ YET (Strict Isolation) |
-|---|---|---|---|
-| **Phase 1: Agents 01–04**<br>(Discovery) | • `AGENTS.md`<br>• Own Agent Profile<br>• Current Task Packet<br>• `problem-card-schema.md` (Level 1 only) | • `source-policy.md` (if verifying sacred texts/rulings)<br>• `evidence-standard.md` (if grading ambiguous evidence) | • `reference-project-schema.md` (full schema)<br>• Other discovery agents' raw outputs/cards<br>• Phase 4–8 schemas & synthesis files |
+| **Phase 1: Agents 01–03**<br>(User, New Muslim, Educator Discovery) | • `AGENTS.md`<br>• Own Agent Profile<br>• Current Task Packet<br>• `problem-card-schema.md` (Level 1 only) | • `source-policy.md`<br>• `evidence-standard.md` | • `reference-project-schema.md` (full schema)<br>• Other discovery agents' raw outputs/cards<br>• Phase 4–8 schemas & synthesis files |
+| **Phase 1: Agent 04**<br>(Islamic Knowledge & Trust Discovery) | • `AGENTS.md`<br>• Agent 04 Profile<br>• Current Task Packet<br>• `problem-card-schema.md` (Level 1 only)<br>• `source-policy.md` (MUST READ) | • `evidence-standard.md` | • `reference-project-schema.md` (full schema)<br>• Other discovery agents' raw outputs/cards<br>• Phase 4–8 schemas & synthesis files |
 | **Phase 2: Agent 08**<br>(Validation) | • `AGENTS.md`<br>• Agent 08 Profile<br>• Task Packet<br>• `problem-card-schema.md` (Level 2 audit section)<br>• Newly created Level 1 Problem Cards<br>• Agents 01–04 raw discovery reports | • `source-policy.md`<br>• `evidence-standard.md` | • Phase 4–8 schemas (`cross-examination-protocol.md`, `opportunity-map-schema.md`)<br>• Premature solution ideation |
 | **Phase 3: Agent 05**<br>(Market Landscape) | • `AGENTS.md`<br>• Agent 05 Profile<br>• Task Packet<br>• `reference-project-schema.md` (Full schema)<br>• `problem-card-schema.md` (Level 3 section)<br>• Validated Problem Cards (Level 2)<br>• Problem Registry (`CYCLE-XXX-problem-registry.md`) | • `evidence-standard.md`<br>• `source-policy.md`<br>• Specific discovery evidence if cited | • Complete raw discovery conversations across all agents (reduces anchoring)<br>• Phase 4–8 opportunity/synthesis files |
 | **Phase 4: Agent 06**<br>(AI Opportunity) | • `AGENTS.md`<br>• Agent 06 Profile<br>• Task Packet<br>• `problem-card-schema.md` (Level 4 Part A)<br>• Validated Problem Cards (Level 2 & 3)<br>• Problem Registry & Gap Register<br>• Agent 05 Landscape Summary & relevant `RP-*` files | • Relevant Agent 04 trust findings<br>• Specific technical benchmarks | • Unrelated Phase 1 raw discovery material<br>• Phase 6–8 cross-examination & synthesis |
@@ -660,20 +669,31 @@ Parallel execution is preferred because it reduces cross-agent influence.
 
 # 21. Phase 1 Input
 
-In accordance with the Runtime Context Loading Matrix, Agents 01–04 receive only:
+In accordance with the Runtime Context Loading Matrix, Phase 1 inputs are strictly calibrated by role:
 
-- `AGENTS.md` (Global Constitution);
-- Their own specialist role profile;
-- Current Phase 1 Task Packet;
-- Level 1 of `research-protocol/problem-card-schema.md`;
-- The challenge research objective and verified domain references where relevant.
+### For Agents 01–03 (User, New Muslim, Educator Discovery):
+- **MUST READ:**
+  - `AGENTS.md` (Global Constitution);
+  - Own specialist role profile;
+  - Current Phase 1 Task Packet;
+  - Level 1 of `research-protocol/problem-card-schema.md`;
+  - Challenge research objective and approved domain references where relevant.
+- **MAY CONSULT IF NEEDED:** `research-protocol/source-policy.md` and `research-protocol/evidence-standard.md` on demand when handling sacred texts, complex rulings, or ambiguous evidence.
 
-Agents 01–04 may consult `source-policy.md` and `evidence-standard.md` on demand when handling sacred texts, complex rulings, or ambiguous evidence.
+### For Agent 04 (Islamic Knowledge & Trust Researcher):
+- **MUST READ:**
+  - `AGENTS.md` (Global Constitution);
+  - Agent 04 specialist role profile;
+  - Current Phase 1 Task Packet;
+  - Level 1 of `research-protocol/problem-card-schema.md`;
+  - **`research-protocol/source-policy.md`** (*mandatory startup context* — Agent 04's core role governs Islamic source integrity, attribution, and scholarly boundaries);
+  - Challenge research objective and verified domain references where relevant.
+- **MAY CONSULT IF NEEDED:** `research-protocol/evidence-standard.md` on demand.
 
-**Do NOT provide:**
-- The full `reference-project-schema.md` (discovery agents record lightweight Reference Candidates in Level 1 Problem Cards);
-- Outputs or Problem Cards from other Phase 1 specialist agents (preserves independent discovery);
-- Downstream synthesis, cross-examination, or opportunity schemas.
+**Strict Phase 1 Isolation (All Agents 01–04):**
+- Do **NOT** provide the full `reference-project-schema.md` (discovery agents record lightweight Reference Candidates in Level 1 Problem Cards);
+- Do **NOT** provide outputs or Problem Cards from other Phase 1 specialist agents (preserves independent discovery);
+- Do **NOT** provide downstream synthesis, cross-examination, or opportunity schemas.
 
 ---
 
@@ -792,23 +812,26 @@ Follow `problem-card-schema.md`.
 
 # 27. Evidence IDs
 
-Where internal evidence records are created, namespace them by agent.
-
-Recommended:
+Where internal evidence records are created, namespace them by agent:
 
 ```text
 E01-001
-
 E01-002
-
 E02-001
-
 E03-001
-
 E04-001
 ```
 
-This prevents parallel collisions.
+If later agents create evidence records, continue the same pattern:
+
+```text
+E05-001
+E06-001
+E07-001
+E08-001
+```
+
+This prevents parallel collisions. Do not add cycle numbers to Evidence IDs; cycle provenance is captured by the artifact and run manifest.
 
 Evidence files belong under:
 
@@ -2026,9 +2049,14 @@ without repeating problem discovery from scratch.
 
 The Orchestrator must enforce strict read permissions to protect agent attention and token budgets:
 
-## Phase 1 (Discovery: Agents 01–04)
+## Phase 1 (Discovery: Agents 01–03)
 - **MUST READ:** `AGENTS.md`, own agent profile, Task Packet, `problem-card-schema.md` (Level 1 only).
 - **MAY CONSULT IF NEEDED:** `source-policy.md`, `evidence-standard.md`.
+- **MUST NOT READ YET:** `reference-project-schema.md` (full schema), other discovery agents' raw outputs/cards, synthesis files.
+
+## Phase 1 (Trust Discovery: Agent 04)
+- **MUST READ:** `AGENTS.md`, Agent 04 profile, Task Packet, `problem-card-schema.md` (Level 1 only), `source-policy.md` (mandatory startup context).
+- **MAY CONSULT IF NEEDED:** `evidence-standard.md`.
 - **MUST NOT READ YET:** `reference-project-schema.md` (full schema), other discovery agents' raw outputs/cards, synthesis files.
 
 ## Phase 2 (Validation: Agent 08)

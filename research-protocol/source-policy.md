@@ -1443,23 +1443,23 @@ High / Medium / Low
 
 # 50. Evidence IDs
 
-Where the research becomes large, assign evidence identifiers.
+Where the research becomes large, assign evidence identifiers namespaced by agent.
 
 Example:
 
 ```text
-EVID-001
-EVID-002
-EVID-003
+E01-001
+E01-002
+E04-001
 ```
 
 Problem Cards can then reference:
 
 ```text
 Supporting evidence:
-EVID-003
-EVID-017
-EVID-025
+E01-003
+E04-002
+E04-005
 ```
 
 This improves traceability and cross-agent synthesis.
@@ -1952,7 +1952,7 @@ Use descriptive filenames.
 Example:
 
 ```text
-EVID-014-app-reviews-source-transparency.md
+E01-014-app-reviews-source-transparency.md
 ```
 
 rather than:

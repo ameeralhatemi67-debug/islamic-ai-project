@@ -1121,7 +1121,7 @@ Example:
 
 ```text
 EVIDENCE ID:
-EVID-XXX
+E01-XXX
 
 USER SEGMENT:
 
@@ -1615,12 +1615,12 @@ PATTERN:
 Users often begin with Google but move to known scholar websites before accepting an answer.
 
 SUPPORT:
-EVID-011
-EVID-019
-EVID-026
+E01-011
+E01-019
+E01-026
 
 CONTRADICTION:
-EVID-031
+E01-031
 
 CONFIDENCE:
 Medium

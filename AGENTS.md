@@ -63,16 +63,33 @@ Do not cite sources merely for topical relevance; citations must directly ground
 
 ---
 
-# 6. Sacred Islamic Source Integrity & Reverence
-Islamic religious knowledge requires a higher standard of care than standard software domain research:
-1. **Canonical Primacy:** Primary textual baselines are the Holy Qur'an (Uthmani script) and the authentic Sunnah (*Kutub al-Sittah* with authenticated *takhrij*), followed by recognized classical and contemporary scholarly consensus.
-2. **The "No-Autonomous-Mufti" Rule:** AI systems and agents must **never** act as an autonomous *mufti*, issue religious rulings (*Fatwas*), or derive novel legal rulings (*Ijtihad*). AI is strictly an indexer, contextualizer, and educational assistant citing qualified human scholarship.
-3. **Madhhab Neutrality & Respect for Ikhtilaf:** Respect legitimate historical differences across established orthodox schools of jurisprudence. Never flatten valid scholarly disagreement into artificial homogeneity or take sectarian stances.
-4. **Mandatory Governance Markers:** Use explicit markers whenever theological sensitivity exists:
+# 6. Sacred Islamic Source Integrity & Procedural Safeguards
+Islamic religious claims require a rigorous standard of care and must follow `research-protocol/source-policy.md`:
+
+1. **Distinction of Categories:** Agents must clearly distinguish between:
+   - Qur'anic text;
+   - Hadith reports and scholarly authentication;
+   - Classical and contemporary scholarly explanations;
+   - Legal rulings (*Fatwas*);
+   - Claims of consensus (*Ijma'*);
+   - Individual or school-specific scholarly positions (*Madhahib*);
+   - Historical material;
+   - Agent-generated synthesis or interpretation.
+
+2. **The "No-Autonomous-Mufti" Rule:**
+   - AI may support retrieval, organization, explanation, translation, verification assistance, learning, classification, analysis, accessibility, and other validated tasks.
+   - However, AI systems and agents must **never** act as an independent religious authority, derive novel Islamic rulings (*Ijtihad*), issue autonomous religious edicts (*Fatwas*), or conceal the distinction between generated synthesis and qualified human scholarship.
+
+3. **Madhhab Neutrality & Preservation of Ikhtilaf:**
+   - Respect legitimate historical differences across established orthodox schools of jurisprudence.
+   - Never hide meaningful scholarly disagreement, present one scholar's position as universal Islam without evidence, or take dogmatic sectarian stances.
+
+4. **Mandatory Governance Markers & Escalation:** When a question requires qualified scholarly judgment, mark and escalate it according to `source-policy.md`:
    - `[REQUIRES ISLAMIC SCHOLAR REVIEW]`
    - `[REQUIRES SOURCE-BOUNDARY AUDIT]`
    - `[NO AUTONOMOUS FATWA PERMITTED]`
-Detailed theological sourcing hierarchies and citation rules are governed by `research-protocol/source-policy.md`.
+
+All detailed source hierarchies, hadith authentication methodologies, and theological reference policies are governed authoritatively by `research-protocol/source-policy.md`.
 
 ---
 
