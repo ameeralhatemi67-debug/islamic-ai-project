@@ -618,6 +618,8 @@ individual evaluation files in /research/reference-projects/.
 
 The Root Orchestrator must enforce the following context-loading rules for every phase and agent:
 
+| Phase & Agent | MUST READ (Startup Context) | MAY CONSULT IF NEEDED (On-Demand) | MUST NOT READ YET (Strict Isolation) |
+|---|---|---|---|
 | **Phase 1: Agents 01–03**<br>(User, New Muslim, Educator Discovery) | • `AGENTS.md`<br>• Own Agent Profile<br>• Current Task Packet<br>• `problem-card-schema.md` (Level 1 only) | • `source-policy.md`<br>• `evidence-standard.md` | • `reference-project-schema.md` (full schema)<br>• Other discovery agents' raw outputs/cards<br>• Phase 4–8 schemas & synthesis files |
 | **Phase 1: Agent 04**<br>(Islamic Knowledge & Trust Discovery) | • `AGENTS.md`<br>• Agent 04 Profile<br>• Current Task Packet<br>• `problem-card-schema.md` (Level 1 only)<br>• `source-policy.md` (MUST READ) | • `evidence-standard.md` | • `reference-project-schema.md` (full schema)<br>• Other discovery agents' raw outputs/cards<br>• Phase 4–8 schemas & synthesis files |
 | **Phase 2: Agent 08**<br>(Validation) | • `AGENTS.md`<br>• Agent 08 Profile<br>• Task Packet<br>• `problem-card-schema.md` (Level 2 audit section)<br>• Newly created Level 1 Problem Cards<br>• Agents 01–04 raw discovery reports | • `source-policy.md`<br>• `evidence-standard.md` | • Phase 4–8 schemas (`cross-examination-protocol.md`, `opportunity-map-schema.md`)<br>• Premature solution ideation |
