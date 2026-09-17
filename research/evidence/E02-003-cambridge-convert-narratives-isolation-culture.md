@@ -1,0 +1,21 @@
+# EVIDENCE RECORD: E02-003
+
+- **EVIDENCE ID:** E02-003
+- **CLAIM SUPPORTED:** Converts experience profound social isolation, "double othering", and learning barriers due to heritage Muslims conflating ethnic/cultural customs (South Asian, Arab) with universal Islamic religious mandates, causing identity dissonance and cultural imposter syndrome.
+- **SOURCE TYPE:** Academic Research Report
+- **SOURCE:** Centre of Islamic Studies, University of Cambridge — "Narratives of Conversion to Islam in Britain: Female Perspectives" (2013) and "Male Perspectives" (2016), Project Director: Prof. Yasir Suleiman, in association with The New Muslims Project.
+- **URL:** https://www.cis.cam.ac.uk/research/narratives-of-conversion/
+- **DATE:** 2013 / 2016
+- **TARGET USER / POPULATION:** British Muslim converts (sample of ~100 male and female converts across multiple symposia)
+- **GEOGRAPHY:** United Kingdom
+- **LANGUAGE:** English
+- **DIRECT OR INDIRECT:** Direct academic qualitative research
+- **PRIMARY OR SECONDARY:** Primary peer-reviewed / institutional empirical study
+- **KEY EVIDENCE:**
+  - Converts report feeling "doubly strange": alienated and viewed with suspicion by non-Muslim family/society, while simultaneously feeling excluded or treated as "outsiders" by heritage (born) Muslim communities.
+  - Pervasive "cultural conflation": born Muslims frequently impose ethnocentric norms (dress codes such as shalwar kameez or jalabiya, dietary preferences, South Asian/Arab domestic customs) as though they were religious obligations. Converts who resist adopting immigrant ethnic identities are accused of lacking religious sincerity.
+  - Mosque alienation: Converts frequently report that local masjids are de facto ethnic community centers conducted in Urdu, Bengali, Arabic, or Somali, lacking beginner-friendly structured classes, English educational infrastructure, or welcoming spaces (especially severe for female converts).
+- **LIMITATIONS:** Focuses on the UK socio-religious landscape; dynamics may vary in countries with higher percentages of indigenous Muslims or different immigration histories.
+- **CONTRADICTING EVIDENCE:** Participants also noted that when mosques establish dedicated convert support groups or provide English-language halaqahs (such as Markfield New Muslims Project), retention and integration improve dramatically.
+- **STRENGTH:** Strong (Rigorous, multi-year university symposia involving extensive convert cohorts).
+- **CONFIDENCE IN INTERPRETATION:** High.

@@ -1,0 +1,22 @@
+# EVIDENCE RECORD: E02-005
+
+- **EVIDENCE ID:** E02-005
+- **CLAIM SUPPORTED:** The widely cited statistic that "70% to 75% of converts leave Islam within a few years" is ungrounded in empirical academic literature and represents an unverified urban legend, whereas rigorous sociological data indicates convert retention is primarily challenged by qualitative social isolation, family pressure, and informational overwhelm.
+- **SOURCE TYPE:** Academic Fact-Check / Demography Analysis
+- **SOURCE:** Pew Research Center ("Religious Switching in America", 2017/2018); Ba-Yunus Sociological Record Analysis; Multiple investigative community reviews.
+- **URL:** https://www.pewresearch.org/religion/2018/01/26/the-share-of-americans-who-leave-islam-is-offset-by-those-who-become-muslim/
+- **DATE:** 2018–2026
+- **TARGET USER / POPULATION:** Converts to Islam / Muslim demography
+- **GEOGRAPHY:** United States and Western Europe
+- **LANGUAGE:** English
+- **DIRECT OR INDIRECT:** Indirect analytical review of demographic claims
+- **PRIMARY OR SECONDARY:** Secondary academic review and demographic audit
+- **KEY EVIDENCE:**
+  - The "75% of converts leave Islam" claim has been repeated in sermons, ICNA/Embrace presentations, and blogs for decades, frequently attributed to the late sociologist Dr. Ilyas Ba-Yunus.
+  - Formal academic checks reveal Ba-Yunus never published this figure in any peer-reviewed paper; it originated from an informal, unpublished 1996 phone inquiry in Chicago that lacked rigorous methodology.
+  - Pew Research Center's landmark 2017 survey of US Muslims revealed that religious switching into and out of Islam is roughly equal: about one in five American Muslim adults (23%) was raised in a different faith or no faith, while roughly the same proportion of those raised Muslim (23%) no longer identify as Muslim.
+  - Conclusion: While converts face documented qualitative friction (loneliness, lack of follow-up, family conflict), claiming an existential "75% exodus" is statistically ungrounded. Research must focus on specific observable workflow barriers rather than manufactured demographic alarmism.
+- **LIMITATIONS:** Because mosques do not maintain formal membership rolls or baptismal-style registries, tracking convert attrition quantitatively remains methodologically difficult.
+- **CONTRADICTING EVIDENCE:** Convert-care organizations (Embrace, Taleef, iERA) report high rates of post-conversion drop-off in community attendance, suggesting that even if formal deconversion numbers are uncertain, disengagement from community worship is very real.
+- **STRENGTH:** Strong (Exposes viral myth; aligns with Pew Research empirical data).
+- **CONFIDENCE IN INTERPRETATION:** High.

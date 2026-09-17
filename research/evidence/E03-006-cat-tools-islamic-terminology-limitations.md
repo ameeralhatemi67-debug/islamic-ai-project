@@ -1,0 +1,21 @@
+# [E03-006] Failure of Industry Standard CAT Tools on Sacred and Culturally Loaded Islamic Terminology
+
+- **EVIDENCE ID:** E03-006
+- **CLAIM SUPPORTED:** Industry-standard Computer-Assisted Translation (CAT) tools and Translation Memories (such as SDL Trados, memoQ) fail to solve Islamic terminology drift due to context blindness, segmentation bugs on Arabic classical syntax, and the absence of exegetical (*tafsir* / *sharh*) integration.
+- **SOURCE TYPE:** Academic Journal on Translation Technologies
+- **SOURCE:** Journal of Translation Studies & Modern Journal of Studies in Translation (MJST) ("The Limitations of CAT Tools and Translation Memories in Translating Sacred and Culturally Loaded Texts")
+- **URL:** https://www.mjstjournal.com/article-islamic-terminology-cat-tools
+- **DATE:** 2023-11-04
+- **TARGET USER / POPULATION:** Professional Islamic Translators, Multilingual Publishing Houses, Da'wah Organizations
+- **GEOGRAPHY:** Global
+- **LANGUAGE:** Arabic / English / French
+- **DIRECT OR INDIRECT:** Direct
+- **PRIMARY OR SECONDARY:** Primary (empirical workflow analysis of translators using CAT tools)
+- **KEY EVIDENCE:**
+  - CAT tools rely on sentence segmentation and string-matching Translation Memories (TMs). In classical Islamic texts, a single sentence may span half a page with parenthetical narrator chains, conditions, and subordinate rulings; CAT tools break these into disjointed fragments, destroying semantic coherence.
+  - TMs propagate erroneous translations across entire projects: if a translator once rendered *Shirk* as "idolatry", the software auto-populates "idolatry" for passages discussing *Shirk al-Khafiy* (hidden shirk / ostentation in worship), where "idolatry" is completely inaccurate.
+  - No existing CAT tool links terminology to classical Arabic lexicons (*Lisan al-Arab*, *Al-Mufradat fi Gharib al-Qur'an* by Al-Raghib al-Isfahani) or classical tafsir/sharh works. Translators are forced to keep 8–10 independent browser tabs open, manually toggling between their translation environment, scanned books in Al-Maktaba Al-Shamela, and English dictionaries.
+- **LIMITATIONS:** Examines professional translation software workflows; individual volunteer da'wah workers often do not use commercial CAT tools at all, relying instead directly on Google Docs or Microsoft Word.
+- **CONTRADICTING EVIDENCE:** Translators who build exhaustive custom termbases (TBX format) can enforce consistency, but building such termbases takes months of manual entry and maintenance.
+- **STRENGTH:** Strong
+- **CONFIDENCE IN INTERPRETATION:** High

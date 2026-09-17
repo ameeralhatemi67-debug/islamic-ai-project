@@ -1,0 +1,21 @@
+# [E03-002] Khutbah Preparation Anxiety, Time Constraints, and Hadith Misattribution Risks
+
+- **EVIDENCE ID:** E03-002
+- **CLAIM SUPPORTED:** Mosque imams and volunteer khatibs operate under extreme preparation time constraints, leading to high anxiety and frequent reliance on unverified or weak hadith narrations from memory or secondary internet articles due to the prohibitive toil of manual takhrij.
+- **SOURCE TYPE:** Field Practitioner Studies & Community Discourse Reports
+- **SOURCE:** MuslimMatters & AMUST (Australasian Muslim Times) Imam Field Analysis ("A Khutbah Checklist: What Makes a Good Khutbah", "Challenges in Khutbah Preparation")
+- **URL:** https://muslimmatters.org/category/community/khutbah-preparation/
+- **DATE:** 2022-11-10
+- **TARGET USER / POPULATION:** Mosque Imams, Volunteer Khatibs, Halaqah Leaders, Guest Preachers
+- **GEOGRAPHY:** US, UK, Australia, Canada, Western diaspora
+- **LANGUAGE:** English / Arabic
+- **DIRECT OR INDIRECT:** Direct
+- **PRIMARY OR SECONDARY:** Primary (practitioner testimonials and editorial investigations)
+- **KEY EVIDENCE:**
+  - A substantial portion of community khatibs are volunteers or part-time imams who work secular full-time jobs during the week and prepare their Friday sermons in 2–4 hours on Thursday night or Friday morning.
+  - Due to lack of rapid takhrij verification tools, preachers frequently cite famous anecdotal stories (e.g., the story of the woman throwing garbage at the Prophet ﷺ, the story of the young man Tha'labah dying of fear, or specific unverified virtue hadiths for Ramadan/Rajab) which classical hadith scholars have graded as *da'if jiddan* (very weak) or *mawdu'* (fabricated).
+  - When challenged post-khutbah by informed congregants, speakers face embarrassment, reputational damage, and community loss of trust, but lack an efficient method to produce verifiable citation sheets prior to ascending the minbar.
+- **LIMITATIONS:** Qualitative accounts gathered from Western diaspora communities; may not fully reflect state-employed, full-time imams in Muslim-majority nations who receive pre-cleared ministerial khutbah drafts (e.g., Awqaf sermons).
+- **CONTRADICTING EVIDENCE:** In some Muslim-majority countries (e.g., UAE, Egypt, Turkey), state ministries provide standardized, pre-verified weekly sermons, removing the need for individual imam preparation; however, this is inapplicable to independent mosques, diaspora communities, and halaqah lectures.
+- **STRENGTH:** Strong
+- **CONFIDENCE IN INTERPRETATION:** High

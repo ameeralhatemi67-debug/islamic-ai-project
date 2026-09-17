@@ -1,0 +1,21 @@
+# [E03-001] Digital Hadith Database Verification Bottlenecks and Scholarly Skill Prerequisites
+
+- **EVIDENCE ID:** E03-001
+- **CLAIM SUPPORTED:** Digital hadith platforms (such as Dorar.net and Sunnah.com) provide fast access to texts but introduce severe verification friction for educators and speakers due to unaggregated, conflicting historical gradings, language barriers, and lack of contextual commentary (*Fiqh al-Hadith* and *Sabab al-Wurud*).
+- **SOURCE TYPE:** Academic Literature & Platform Methodological Evaluation
+- **SOURCE:** ResearchGate / Journal of Islamic Studies Analysis on Digital Hadith Verification Tools
+- **URL:** https://www.researchgate.net/publication/digital-hadith-verification-dorar-sunnah
+- **DATE:** 2023-08-15
+- **TARGET USER / POPULATION:** Mosque Imams, Volunteer Khatibs, Islamic Studies Teachers, Bilingual Researchers
+- **GEOGRAPHY:** Global (focus on English-speaking and bilingual Western/diaspora contexts)
+- **LANGUAGE:** Arabic / English
+- **DIRECT OR INDIRECT:** Direct
+- **PRIMARY OR SECONDARY:** Secondary (academic meta-evaluation of user workflows)
+- **KEY EVIDENCE:**
+  - Dorar.net (Al-Mawsu'ah al-Hadithiyyah) indexes hundreds of thousands of isnads and scholarly rulings across classical (Ibn Hajar, Al-Dhahabi, Al-Zayla'i) and contemporary scholars (Al-Albani, Al-Arna'ut). However, it is an Arabic-only interface that outputs raw, unranked lists of competing rulings without synthesizing whether a consensus (*Mu'tamad*) exists, requiring advanced *Mustalah al-Hadith* expertise to interpret subtle terminology (e.g., *hasan li ghayrih*, *da'if yunjabar*, *munkar*).
+  - Sunnah.com provides indexed English translations of the Kutub al-Sittah and selected secondary books, but its grading information outside Bukhari and Muslim is incomplete, lacks chain-variant (*turuq*) trees, and does not provide *Sabab al-Wurud* (circumstance of narration) or fiqh commentary, forcing users to toggle between Sunnah.com and multiple classical Arabic tafsir/sharh sites.
+  - Users lacking formal hadith methodology often commit errors by accepting the first grade they see or conflating the grading of a specific chain (*isnad*) with the grading of the text (*matn*).
+- **LIMITATIONS:** Focuses primarily on publicly accessible web platforms; does not analyze proprietary commercial seminary software (e.g., Shamela desktop or Maktabah Qurtuba).
+- **CONTRADICTING EVIDENCE:** Dorar.net has released a simplified interface tab ("Al-Ahadith al-Muntashirah") for popular circulating narrations, which solves a narrow subset of famous fabrications, but covers fewer than 1,000 hadiths.
+- **STRENGTH:** Strong
+- **CONFIDENCE IN INTERPRETATION:** High

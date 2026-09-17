@@ -1,0 +1,22 @@
+# EVIDENCE RECORD: E02-001
+
+- **EVIDENCE ID:** E02-001
+- **CLAIM SUPPORTED:** Non-Arabic speaking new Muslim converts experience severe cognitive overload when learning Salah, leading to physical/digital cheat-sheet workarounds on the floor, performance anxiety regarding pronunciation and posture validity, and prayer avoidance.
+- **SOURCE TYPE:** User Community Discussion / Forum Testimonies
+- **SOURCE:** Reddit community `r/converts` — multiple user threads on learning prayer ("Learning to pray / cheat sheet", "Overwhelmed with Salah")
+- **URL:** https://www.reddit.com/r/converts/
+- **DATE:** 2024–2026
+- **TARGET USER / POPULATION:** Newly converted Muslims (first 1–6 months), non-Arabic speakers
+- **GEOGRAPHY:** Global English-speaking converts (primarily US, UK, Canada, Australia)
+- **LANGUAGE:** English
+- **DIRECT OR INDIRECT:** Direct (first-person convert testimonials)
+- **PRIMARY OR SECONDARY:** Primary behavioral signal
+- **KEY EVIDENCE:**
+  - Converts consistently report printing transliterated sheets or placing smartphones on their prayer rugs directly in front of them to read while in standing, bowing, and prostrating positions.
+  - Users express intense anxiety about "butchering" Arabic pronunciation, fearing their prayers are invalid if recited imperfectly.
+  - Worshippers struggle to synchronize physical motor transitions (Ruku, Sujud) while simultaneously reading unfamiliar phonetic text and counting rak'ahs.
+  - Community members frequently recommend coping mechanisms: "pray with a cheat sheet rather than skipping", "write it on poster board in large letters so you can see it while standing", or using .5x playback on YouTube tutorials.
+- **LIMITATIONS:** Online forums like Reddit may skew towards self-directed learners who lack access to in-person mosque mentors or structured local classes.
+- **CONTRADICTING EVIDENCE:** Some converts report successfully memorizing the prayer within 2 to 4 weeks through intensive repetition or by praying behind an Imam in a local congregation where no individual recitation is required.
+- **STRENGTH:** Strong (recurrent pattern observed across dozens of independent convert threads over multiple years).
+- **CONFIDENCE IN INTERPRETATION:** High.

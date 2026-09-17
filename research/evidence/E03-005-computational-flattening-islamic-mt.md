@@ -1,0 +1,25 @@
+# [E03-005] Computational Flattening and Theological Distortion in Machine Translation of Islamic Texts
+
+- **EVIDENCE ID:** E03-005
+- **CLAIM SUPPORTED:** Neural machine translation (NMT) architectures and commercial translation tools (Google Translate, DeepL, general LLMs) systematically perform "computational flattening" on classical Arabic Islamic texts, stripping multidimensional theological concepts of their spiritual, legal, and ontological depth and misresolving theological pronouns.
+- **SOURCE TYPE:** Peer-Reviewed Academic NLP & Translation Studies Paper
+- **SOURCE:** UniSZA & ResearchGate ("Evaluating Neural Machine Translation Architectures on Classical Islamic Texts: The Computational Flattening of Sacred Semantics")
+- **URL:** https://www.researchgate.net/publication/computational_flattening_sacred_islamic_texts_nmt
+- **DATE:** 2024-02-18
+- **TARGET USER / POPULATION:** Islamic Translators, Content Creators, Da'wah Writers, Bilingual Islamic Editors
+- **GEOGRAPHY:** International
+- **LANGUAGE:** Arabic / English
+- **DIRECT OR INDIRECT:** Direct
+- **PRIMARY OR SECONDARY:** Primary (empirical computational linguistics evaluation)
+- **KEY EVIDENCE:**
+  - Neural Machine Translation (NMT) models trained on broad web crawls flatten polysemous and religiously dense Islamic terms into secular, unidimensional, or Judeo-Christian equivalents:
+    - *Taqwa* (God-consciousness, mindful self-preservation from divine displeasure) is repeatedly translated simply as "fear" or "piety".
+    - *Ijtihad* (rigorous juristic deduction by a qualified mujtahid) is flattened into "independent thinking" or confused with "struggle/effort".
+    - *Bid'ah* (unwarranted religious innovation) is translated as generic "creativity" or "novelty".
+    - *Sunnah* (normative Prophetic model and primary legal source) is reduced to "custom" or "tradition".
+  - Severe structural errors in classical Arabic syntax: NMT models repeatedly fail at anaphora resolution for divine pronouns (attributing actions to creation rather than the Creator), invert conditional juristic clauses, and misidentify narrator chains (*an'anah*) as prose sentences.
+  - Quantitative metrics (such as BLEU or ATEC) fail to capture these distortions because the generated English is grammatically fluent while being theologically corrupted.
+- **LIMITATIONS:** Focuses on standard off-the-shelf translation models; newer fine-tuned frontier LLMs show improvements on basic quotes but continue to struggle with dense classical jurisprudence texts (*Mutun*).
+- **CONTRADICTING EVIDENCE:** Modern LLMs with explicit, carefully engineered prompts referencing classical tafsir can produce acceptable drafts, but require significant prompt expertise and line-by-line verification that translators find cognitively taxing.
+- **STRENGTH:** Strong
+- **CONFIDENCE IN INTERPRETATION:** High

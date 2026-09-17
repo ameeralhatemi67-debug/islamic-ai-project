@@ -1,0 +1,22 @@
+# EVIDENCE RECORD: E02-006
+
+- **EVIDENCE ID:** E02-006
+- **CLAIM SUPPORTED:** Non-Arabic speaking seekers and early-stage converts experience constant reading comprehension interruption and conceptual distortion due to dense, untranslated Arabic loanwords in introductory Islamic materials and inconsistent transliteration schemes across educational platforms.
+- **SOURCE TYPE:** User Community Observation / Educational Content Analysis
+- **SOURCE:** Reddit community `r/converts` — Threads on "Arabic terminology glossary", "Understanding Islamic words", and "Convert learning guides"; Yaqeen Institute Beginner Guides.
+- **URL:** https://www.reddit.com/r/converts/
+- **DATE:** 2024–2026
+- **TARGET USER / POPULATION:** Non-Arabic speaking Islam explorers and new converts
+- **GEOGRAPHY:** Global English-speaking learners
+- **LANGUAGE:** English / Arabic transliteration
+- **DIRECT OR INDIRECT:** Direct user feedback and textual observation
+- **PRIMARY OR SECONDARY:** Primary observational and qualitative signal
+- **KEY EVIDENCE:**
+  - Introductory articles and lectures routinely intersperse untranslated technical Arabic terms (*Fard*, *Sunnah*, *Makruh*, *Bid'ah*, *Taqwa*, *Ihsan*, *Niyyah*, *Wudu*, *Ghusl*, *Tayammum*, *Mahram*, *Qiblah*, *Taharah*) without inline definitions or tooltips.
+  - Dictionary translations mislead beginners: e.g., translating *Sunnah* merely as "tradition" obscures its normative and juristic weight; translating *Bid'ah* as "innovation" causes converts to believe technology or speaking English is religiously prohibited; translating *Wajib* vs *Fard* causes confusion across madhhabs (Hanafi vs Shafi'i distinctions).
+  - Transliteration chaos: A single concept is spelled in multiple divergent ways across different websites (e.g., *Salah / Salaat / Salat / Namaz*; *Wudu / Wudhoo / Wudu'*; *Dhikr / Zikr / Thikr*; *Ruku / Rukoo*), breaking beginner search queries when they attempt to look up terms heard verbally in podcasts or khutbahs.
+  - Workaround friction: Learners are forced to leave their reading material every few paragraphs to open a search tab, getting sidetracked by sectarian debates or unrelated search results, leading to cognitive fatigue and abandoned reading sessions.
+- **LIMITATIONS:** Over time (typically 6–12 months of consistent study), motivated learners internalize core terminology; the barrier is heavily concentrated in the exploratory and early onboarding stages.
+- **CONTRADICTING EVIDENCE:** Many converts explicitly value learning Arabic terminology and reject "over-anglicizing" sacred concepts, stating that understanding original Arabic terms connects them to the global Ummah.
+- **STRENGTH:** Strong (Universally observed across convert literature, glossaries, and community FAQs).
+- **CONFIDENCE IN INTERPRETATION:** High.

@@ -1,0 +1,23 @@
+# [E03-003] ISPU National Study on Weekend Islamic Schools: Volunteer Reliance and Pedagogical Fragmentation
+
+- **EVIDENCE ID:** E03-003
+- **CLAIM SUPPORTED:** Over 80% of weekend Islamic schools rely predominantly on unpaid or low-stipend volunteer teachers who lack formal pedagogical and Islamic studies training, leading to severe curriculum fragmentation, high annual turnover, and student disengagement.
+- **SOURCE TYPE:** Empirical Field Research & National Convening Report
+- **SOURCE:** Institute for Social Policy and Understanding (ISPU) — "Weekend Islamic Schools: Are They Preparing Children for Life Ahead?"
+- **URL:** https://www.ispu.org/weekend-islamic-schools/
+- **DATE:** 2018-05-24
+- **TARGET USER / POPULATION:** Weekend Madrasah Teachers, School Principals, Mosque Board Directors
+- **GEOGRAPHY:** North America (United States)
+- **LANGUAGE:** English
+- **DIRECT OR INDIRECT:** Direct
+- **PRIMARY OR SECONDARY:** Primary (national survey and multi-stakeholder convening)
+- **KEY EVIDENCE:**
+  - The vast majority of American mosques operate a weekend school, making it the primary formal Islamic education vehicle for over 70% of mosque-attending youth.
+  - The teaching corps is overwhelmingly volunteer-based: working parents and college students with minimal background in instructional design, developmental psychology, or classical Islamic scholarship.
+  - Teacher turnover is endemic (estimated 30–50% annually in many schools), preventing cumulative curricular improvement and institutional memory.
+  - Curricula are frequently reported as "inadequate", failing to connect classical theology (*Aqeedah* and *Fiqh*) to the lived reality and moral challenges of contemporary students, resulting in student disinterest where students view weekend school as a burdensome "punishment".
+  - ISPU explicitly recommended developing digital teacher-support modules, standardized pedagogical metrics, and structured lesson-scaffolding resources to alleviate volunteer burden.
+- **LIMITATIONS:** Focuses on North American weekend schools; though corroborated by similar studies in the UK, Europe, and Australia, local conditions in other diaspora environments may exhibit different organizational models.
+- **CONTRADICTING EVIDENCE:** A minority of well-funded suburban megamosques employ full-time paid educational directors and purchase complete commercial book sets, mitigating some administrative chaos.
+- **STRENGTH:** Strong (highest-tier empirical community study available)
+- **CONFIDENCE IN INTERPRETATION:** High

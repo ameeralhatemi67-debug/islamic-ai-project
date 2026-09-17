@@ -1,0 +1,22 @@
+# [E03-007] Abdul-Raof's Foundational Analysis of Semantic Loss and Exegetical Requirements in Translating Sacred Arabic
+
+- **EVIDENCE ID:** E03-007
+- **CLAIM SUPPORTED:** Translation of sacred Islamic discourse cannot be achieved through one-to-one word replacement without catastrophic semantic loss; faithful localization requires integrated explanatory exegesis (*tafsir*), context of revelation (*asbab al-nuzul*), and explicit awareness of polysemic theological boundaries.
+- **SOURCE TYPE:** Academic Monograph & Theoretical Linguistics Framework
+- **SOURCE:** Hussein Abdul-Raof — *Qur'an Translation: Discourse, Texture and Exegesis* (Routledge Curzon)
+- **URL:** https://www.routledge.com/Quran-Translation-Discourse-Texture-and-Exegesis/Abdul-Raof/p/book/9780700714155
+- **DATE:** 2001-05-10
+- **TARGET USER / POPULATION:** Qur'an and Hadith Translators, Exegetes, Da'wah Communicators, Islamic Academics
+- **GEOGRAPHY:** Global
+- **LANGUAGE:** Arabic / English
+- **DIRECT OR INDIRECT:** Direct
+- **PRIMARY OR SECONDARY:** Primary foundational academic research
+- **KEY EVIDENCE:**
+  - Abdul-Raof systematically categorizes "semantic voids" in cross-linguistic Islamic transfer, proving that lexical gaps exist between classical Arabic theological discourse and target European languages that standard dictionaries cannot bridge.
+  - Demonstrates that literal or semi-literal translation of Quranic and Hadith expressions without parenthetical exegetical glosses leads target-language readers to impute foreign theological conceptions (anthropomorphism, fatalism, or legalistic severity) that the Arabic original actively resists.
+  - Highlights that translators must maintain active reference to classical *Mufassirun* (Al-Tabari, Al-Qurtubi, Ibn Kathir, Al-Alusi) to determine the intended semantic scope of an ayah or hadith, rather than relying on intuitive linguistic fluency.
+  - When translators lack an integrated workbench connecting the translation unit directly to classical exegesis, translation quality degrades and provenance is severed.
+- **LIMITATIONS:** Focuses primarily on Qur'an translation rather than contemporary social media content, khutbahs, or fatwas.
+- **CONTRADICTING EVIDENCE:** Dynamic equivalence translations (such as M.A.S. Abdel Haleem's Oxford translation) succeed at high readability for lay readers, but still lose nuanced legal and theological subtleties required by students of knowledge and educators.
+- **STRENGTH:** Very Strong (canonical textbook in Islamic translation studies)
+- **CONFIDENCE IN INTERPRETATION:** High

@@ -1,0 +1,21 @@
+# EVIDENCE RECORD: E02-002
+
+- **EVIDENCE ID:** E02-002
+- **CLAIM SUPPORTED:** Classical Islamic jurisprudence explicitly recognizes educational gradualism (*Tadrij*) and procedural concessions for learners who cannot recite Qur'anic Arabic, establishing that complete adult Arabic recitation is not a prerequisite for valid prayer during the onboarding phase.
+- **SOURCE TYPE:** Islamic Primary Text & Classical Jurisprudence
+- **SOURCE:** Sunan Abi Dawud (Hadith 858); Sunan an-Nasa'i (Hadith 924); Jami` at-Tirmidhi (Hadith 302); Sahih al-Bukhari (Book of Adhan, Chapter on reading from Mushaf during prayer).
+- **URL:** https://sunnah.com/abudawud:858
+- **DATE:** Classical (Canonical Prophetic Narration; authenticated as Sahih/Hasan by al-Albani and classical muhaddithin)
+- **TARGET USER / POPULATION:** New Muslims / illiterate or non-Arabic speaking worshippers unable to recite Qur'an
+- **GEOGRAPHY:** Universal
+- **LANGUAGE:** Arabic / English translation
+- **DIRECT OR INDIRECT:** Direct canonical ruling
+- **PRIMARY OR SECONDARY:** Primary sacred text
+- **KEY EVIDENCE:**
+  - A companion approached the Prophet (ﷺ) stating: "I cannot learn anything of the Qur'an; teach me something that will suffice me." The Prophet (ﷺ) instructed: "Say: SubhanAllah (Glory be to Allah), wal-hamdulillah (all praise is due to Allah), wa la ilaha ill-Allah (there is no god but Allah), wa Allahu akbar (Allah is the greatest), wa la hawla wa la quwwata illa billah (there is no power nor strength except by Allah)."
+  - Classical jurists across the four Madhahib (Hanafi, Maliki, Shafi'i, Hanbali) affirmed that someone unable to recite Al-Fatiha in Arabic may substitute Dhikr/Tasbeeh, listen to an Imam, or read from a written page (Mushaf/paper) while actively learning.
+  - The existence of this prophetic concession proves that modern digital apps and rigid checklists that demand immediate full Arabic recitation from Day 1 create an artificial, ungrounded barrier that contradicts authentic prophetic pedagogical gradualism (*Tadrij*).
+- **LIMITATIONS:** Concessions are unanimously conditioned by scholars upon the worshipper actively striving to learn Surah Al-Fatiha over time; it is not a permanent license to abandon learning.
+- **CONTRADICTING EVIDENCE:** Once an individual has the capacity to recite Surah Al-Fatiha, its recitation becomes an integral pillar (*Rukn*) of Salah according to the majority (Shafi'i, Maliki, Hanbali) and obligatory (*Wajib*) according to the Hanafi school.
+- **STRENGTH:** Strong (Canonical, authenticated hadith with consensus on its legal application for the incapable beginner).
+- **CONFIDENCE IN INTERPRETATION:** High.

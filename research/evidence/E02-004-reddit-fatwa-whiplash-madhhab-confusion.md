@@ -1,0 +1,22 @@
+# EVIDENCE RECORD: E02-004
+
+- **EVIDENCE ID:** E02-004
+- **CLAIM SUPPORTED:** Early-stage converts navigating everyday life dilemmas (family holidays, food, pets, clothing) suffer from "fatwa whiplash" and moral paralysis when unguided internet searches expose them to diametrically opposing religious verdicts without methodological context or literacy in classical legal disagreement (*Ikhtilaf*).
+- **SOURCE TYPE:** User Community Discussion / Behavioral Observation
+- **SOURCE:** Reddit community `r/converts` — Threads on "Conflicting Fatwas", "IslamQA anxiety", "Haram Police", and "Navigating non-Muslim family holidays"
+- **URL:** https://www.reddit.com/r/converts/
+- **DATE:** 2023–2026
+- **TARGET USER / POPULATION:** Converts in their first year of Islam navigating non-Muslim environments
+- **GEOGRAPHY:** Western Muslim minority contexts (North America, UK, Europe, Australasia)
+- **LANGUAGE:** English
+- **DIRECT OR INDIRECT:** Direct user reports and community consensus
+- **PRIMARY OR SECONDARY:** Primary qualitative community signal
+- **KEY EVIDENCE:**
+  - Converts consistently describe paralysis when researching everyday questions (e.g., attending Christmas dinner with non-Muslim parents, handling household dogs, eating food cooked in shared non-Muslim kitchens).
+  - Web searches rank SEO-optimized fatwa repositories (specifically IslamQA.info / Salafi methodology) that issue categorical prohibitions, warning converts that attending family holiday dinners or keeping a pet dog invites severe divine wrath or invalidates prayer.
+  - Concurrently, Western-based fiqh bodies (e.g., Fiqh Council of North America, European Council for Fatwa and Research, SeekersGuidance, Yaqeen Institute) issue contextual rulings permitting family dinner attendance for filial piety (*Birr al-Walidayn*) or citing the Maliki school on the ritual purity of dogs.
+  - Lacking foundational literacy in *Usul al-Fiqh* or the four canonical *Madhahib*, converts interpret differences not as legitimate juristic pluralism (*Ikhtilaf*), but as evidence that one source is "corrupted/deviant" or that Islam is contradictory, resulting in intense guilt, family fractures, and "haram police" harassment.
+- **LIMITATIONS:** Community discussions self-select for users facing acute dilemmas; converts with knowledgeable local mentors often avoid internet-driven fatwa confusion.
+- **CONTRADICTING EVIDENCE:** Reddit community veterans consistently advise newcomers to "stick to one local Imam or one madhhab" and stop Googling rulings, showing that experienced mentors recognize the failure mode and have developed non-technical coping advice.
+- **STRENGTH:** Strong (Triangulated across hundreds of forum posts, podcast discussions, and convert support group advisories).
+- **CONFIDENCE IN INTERPRETATION:** High.
