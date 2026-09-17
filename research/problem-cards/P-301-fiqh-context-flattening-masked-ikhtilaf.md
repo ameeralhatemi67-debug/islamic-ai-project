@@ -5,8 +5,8 @@
 ## METADATA & MATURITY
 
 - **Problem ID:** P-301
-- **Current Maturity Level:** LEVEL 4 — OPPORTUNITY-READY (Part A)
-- **Problem Status:** VALIDATED
+- **Current Maturity Level:** LEVEL 4 — SHELVED / REQUIRES REFRAME
+- **Problem Status:** SHELVED / REJECTED (IN CURRENT CONVERSATIONAL IFTA FORM)
 - **Primary Research Owner:** Agent 04
 - **Date Created:** 2026-09-17
 - **Last Updated:** 2026-09-17
@@ -239,7 +239,12 @@ Practicing Muslims seeking legal and ritual guidance struggle to determine the v
   2. *Strict Abstention Enforcement:* Proves that an AI system can be architected to prioritize refusal and human scholar escalation over hallucinated legal synthesis.
 
 ## 27. Final Research Disposition (Agent 08 — Phase 7)
-*(To be completed by Agent 08)*
+- **Final Disposition:** SHELVED / REJECTED (IN CURRENT CONVERSATIONAL IFTA FORM)
+- **Disposition Justification:** P-301 accurately exposed the critical failure of commercial LLMs issuing context-flattened, single-madhhab, or hallucinated rulings. However, the proposed AI remedy—an interactive conversational fiqh assistant using situational slot-filling to diagnose personal circumstances—was decisively struck down during Red Team review (RT-P-301) and Cross-Examination (CX-DOCK-01 / CX-P-301). By universal classical consensus (*Ijma'*), algorithms lack legal capacity (*Faqd al-Ahliyyah*); extracting personal variables and delivering matched legal rulings performs *Tahqiq al-Manat al-Khass* (applying universal rules to individual reality), violating the constitutional "No Autonomous Mufti" red line. Furthermore, conversational prompt injection allows trivial jailbreaking into personal status, divorce, and custody questions. The card is permanently shelved in its conversational assistant form and preserved in the Opportunity Map as a mandatory negative result and governance boundary precedent (`OPP-008`), with only its abstract comparative multi-madhhab educational retrieval engine surviving for academic contexts.
+- **Key Decision-Changing Questions for Hackathon Strategy:**
+  1. *Abstention Enforcement:* Can the team demonstrate a 100% reliable deterministic filter that refuses all first-person situational legal queries before any LLM generation occurs?
+  2. *Educational Pivot:* Is the team prepared to build a purely descriptive scholarly encyclopedia of historical legal divergence rather than a consumer question-answering tool?
+- **Eligible for Opportunity Map:** YES (Synthesized into `OPP-008` as a Boundary Precedent & Prohibited Architecture)
 
 ---
 
@@ -255,4 +260,5 @@ Practicing Muslims seeking legal and ritual guidance struggle to determine the v
 | 2026-09-17 | Agent 06 | LEVEL 3 → LEVEL 4 (Part A) | AI Opportunity Evaluation completed; assigned AI-OP-011; justified conversational slot-filling with multi-madhhab retrieval and strict abstention | Phase 4 AI Opportunity Analysis |
 | 2026-09-17 | Agent 07 | LEVEL 4 (Part B) Completed | Adversarial red team review completed; assigned RT-P-301; declared P0 autonomous mufti governance breach and P1 jailbreaking vulnerabilities | Phase 5 Adversarial Red Team Review |
 | 2026-09-17 | Agent 08 | LEVEL 4 (Part C) Completed | Cross-Examination Adjudication completed (CX-DOCK-01); populated Section 26 with surviving claims and accepted limitations (CX-P-301); banned all personal advisory slot-filling and enforced multi-layer abstention guardrails | Phase 6 Cross-Examination Adjudication |
+| 2026-09-17 | Agent 08 | LEVEL 4 Completed (Section 27) | Assigned SHELVED / REJECTED in conversational form; preserved under OPP-008 as negative result and theological boundary precedent | Phase 7 Synthesis Sign-Off |
 

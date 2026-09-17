@@ -5,8 +5,8 @@
 ## METADATA & MATURITY
 
 - **Problem ID:** P-002
-- **Current Maturity Level:** LEVEL 4 — OPPORTUNITY-READY (Part A)
-- **Problem Status:** VALIDATED
+- **Current Maturity Level:** LEVEL 4 — SHELVED / REQUIRES REFRAME
+- **Problem Status:** HOLD / REQUIRES REFRAME
 - **Primary Research Owner:** Agent 01 — Muslim User Researcher
 - **Date Created:** 2026-09-17
 - **Last Updated:** 2026-09-17
@@ -242,7 +242,12 @@ Everyday practicing Muslims, working professionals, and students face severe rel
   2. *Educational Consensus Demarcation:* Structured multi-document retrieval reliably separates consensus matters (*Ijma'*) from valid historical divergence (*Ikhtilaf*) on abstract legal topics.
 
 ## 27. Final Research Disposition (Agent 08 — Phase 7)
-*(To be completed by Agent 08)*
+- **Final Disposition:** HOLD / REQUIRES REFRAME (SHELVED AS PERSONAL ADVISORY TOOL)
+- **Disposition Justification:** P-002 cannot proceed as an AI-driven personal legal advisory or scrupulosity-relief tool. Red Team falsification (RT-P-002) and Cross-Examination adjudication (CX-DOCK-01) definitively demonstrated the **Clinical Scrupulosity Paradox**: presenting 4 parallel conflicting madhhab columns worsens religious OCD (*al-waswas al-qahri*), while conversational situational reasoning violates the constitutional "No Autonomous Mufti" red line. The concept survives only in an academic/educational capacity (historical multi-madhhab comparison on theoretical topics for advanced students). It is held from hackathon productization and preserved in the Opportunity Map as an essential negative result and boundary precedent (`OPP-008`).
+- **Key Decision-Changing Questions for Hackathon Strategy:**
+  1. *Theological & Legal Liability:* Can any technical team legitimately guarantee zero algorithmic *Ifta* without disabling conversational interaction entirely?
+  2. *Audience Pivoting:* Is the team willing to abandon the mass consumer market and pivot 100% to an academic reference tool for seminary students?
+- **Eligible for Opportunity Map:** YES (Preserved under `OPP-008` as a Discontinued Consumer Tool / Educational Boundary Precedent)
 
 ---
 
@@ -258,3 +263,4 @@ Everyday practicing Muslims, working professionals, and students face severe rel
 | 2026-09-17 | Agent 06 | LEVEL 3 → LEVEL 4 (Part A) | AI Opportunity Evaluation completed; assigned AI-OP-002; formulated non-AI baselines and capability justification | Phase 4 AI Opportunity Analysis |
 | 2026-09-17 | Agent 07 | LEVEL 4 (Part B) Completed | Adversarial red team review completed; assigned RT-P-002; identified P0 clinical scrupulosity paradox and P1 algorithmic Ifta vulnerabilities | Phase 5 Adversarial Red Team Review |
 | 2026-09-17 | Agent 08 | LEVEL 4 (Part C) Completed | Cross-Examination Adjudication completed (CX-DOCK-01); populated Section 26 with surviving claims and accepted limitations (CX-P-002); stripped clinical waswas claims and barred automated Tahqiq al-Manat; reframed as educational archive | Phase 6 Cross-Examination Adjudication |
+| 2026-09-17 | Agent 08 | LEVEL 4 Completed (Section 27) | Assigned HOLD / REQUIRES REFRAME status; barred consumer personal advisory; mapped to OPP-008 (Shelved Boundary) | Phase 7 Synthesis Sign-Off |
